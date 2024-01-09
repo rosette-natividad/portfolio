@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url('/images/brick-wall.jpeg');
+  background-image: url("https://github.com/rosette-natividad/portfolio/blob/main/images/brick-wall.jpeg?raw=true");
   background-repeat: repeat;
   background-size: 1300px 700px;
   min-height: 100vh;
