@@ -1,0 +1,314 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/brick-wall.jpeg");
+  background-repeat: repeat;
+  background-size: 1300px 700px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* overflow-x: hidden; */
+}
+
+.container {
+  width: 1000px;
+  height: auto;
+  position: relative;
+  max-width: 100%;
+  margin: 0px auto;
+  padding: 40px;
+}
+img,
+video {
+  pointer-events: none;
+  user-select: none;
+}
+hr {
+  width: 100%;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+textarea,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/* HEADER STYLES */
+header {
+  display: flex;
+  z-index: 99999999;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  box-shadow: 0px 1px 40px 1px #000;
+}
+
+header .container {
+  background: rgb(0, 0, 0);
+  max-width: 100%;
+  top: 0px;
+  z-index: 9999;
+  display: flex;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  filter: invert();
+}
+.logo a {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+  white-space: nowrap;
+}
+header h6,
+nav a {
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav a:first-child {
+  margin-left: 0px;
+}
+header .logo a {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: black;
+  white-space: nowrap;
+}
+nav a:hover,
+header .logo a:hover {
+  font-weight: 700;
+}
+
+ul.hamburger-icon {
+  display: none;
+  list-style-type: none;
+  cursor: pointer;
+  margin-right: 40px;
+  padding: 0;
+  width: 25px;
+}
+
+ul.hamburger-icon li {
+  border: 1.5px solid rgb(255, 255, 255);
+  border-radius: 12pt;
+  margin-bottom: 7px;
+}
+ul.hamburger-icon li:last-child {
+  margin-bottom: 0px;
+}
+hr {
+  margin-left: 10px;
+}
+@media screen and (max-width: 770px) {
+  ul.hamburger-icon {
+    display: block;
+  }
+  hr {
+    margin-left: 0px;
+  }
+
+  nav {
+    display: none;
+    text-align: center;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    z-index: 9999999;
+    box-shadow: 0px 1px 40px 1px #000;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+  }
+
+  nav.show-mobile {
+    display: block;
+  }
+
+  nav a {
+    margin-left: 0px;
+    color: #000000;
+  }
+}
+
+/* FOOTER STYLES */
+footer {
+  background-color: gainsboro;
+  box-shadow: 0px 5px 20px 1px #000;
+  z-index: 10;
+  width: 100%;
+  margin-top: auto;
+}
+
+footer .container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+footer .socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+footer .socials img {
+  display: flex;
+  padding: 5px;
+  width: 30px;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+}

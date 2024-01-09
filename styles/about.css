@@ -1,0 +1,93 @@
+/* NAV STYLES */
+#about {
+  font-weight: 600;
+}
+#about:hover {
+  font-weight: 700;
+}
+.page-title {
+  font-size: 30pt;
+  font-weight: bolder;
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 0px;
+}
+/* MAIN STYLES */
+
+main .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  width: 1000px;
+  height: auto;
+  position: relative;
+  max-width: 100%;
+  margin: 0px auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+  justify-content: space-around;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+  border: 5px solid black;
+  border-radius: 12pt;
+  background: white;
+  padding: 15px;
+}
+main .profile {
+  background: rgb(255, 221, 0);
+}
+.desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 25px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+}
+.profile img {
+  border-radius: 100%;
+  border: 5px solid black;
+  width: 200px;
+}
+@media screen and (max-width: 630px) {
+  .desc {
+    flex-direction: column;
+  }
+  .profile img {
+    width: 60%;
+  }
+}
+h2,
+h5,
+h6,
+.title p {
+  font-weight: bold;
+}
+h5 {
+  text-transform: uppercase;
+  font-size: 14pt;
+}
+.title p {
+  font-style: bolder;
+  font-size: 18pt;
+}
+main hr {
+  width: 100%;
+  margin: 0;
+}
+main a {
+  text-decoration: underline;
+  color: blue;
+}

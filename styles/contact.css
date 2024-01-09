@@ -1,0 +1,109 @@
+/* NAV STYLES */
+#contact {
+  font-weight: 600;
+}
+#contact:hover {
+  font-weight: 700;
+}
+.page-title {
+  font-size: 30pt;
+  font-weight: bolder;
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 0px;
+}
+/* MAIN STYLES */
+main .container {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+  justify-content: space-around;
+}
+main .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* CONTACT STYLES */
+.contact {
+  border: 5px solid black;
+  background: black;
+  border-radius: 12pt;
+  padding: 2px;
+}
+
+/* CONTACT FORM STYLES */
+.contact .title {
+  border: 5px solid black;
+  background: black;
+  padding: 0px;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 15pt;
+  padding: 17px;
+  border-top-left-radius: 6pt;
+  border-top-right-radius: 6pt;
+}
+.contact p {
+  font-size: 18pt;
+}
+
+.contact {
+  background: white;
+  border-radius: 12pt;
+  padding: 0px;
+  border: 3px solid #000000;
+}
+.desc {
+  display: grid;
+  padding-left: 15px;
+  padding-right: 15px;
+  grid-gap: 15px;
+}
+.desc p {
+  font-size: 12pt;
+}
+.desc span {
+  font-weight: bold;
+}
+.desc hr {
+  width: 100%;
+  margin: 0;
+  margin-top: 10px;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  padding: 15px;
+  padding-top: 0px;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+  font-size: 12pt;
+}
+input[type="submit"] {
+  background-color: #c73030;
+  color: rgb(255, 255, 255);
+  padding: 12px 30px;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 800;
+}
+input[type="submit"]:hover {
+  background-color: #f03b3b;
+}
