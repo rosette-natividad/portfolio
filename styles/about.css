@@ -90,4 +90,5 @@ main hr {
 main a {
   text-decoration: underline;
   color: blue;
+  font-weight:500;
 }
