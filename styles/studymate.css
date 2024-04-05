@@ -42,19 +42,30 @@
     background: white;
     padding: 15px;
   }
-
+  
   main .about p {
     font-weight: bold;
   }
-
+  
   main .logoCover {
     padding: 0px;
   }
-
+  
   main img {
     border-radius: 8pt;
   }
-
+  
+  main small {
+    font-size: 8pt;
+    font-style: italic;
+    float: inline-end;
+    padding: 5px;
+  }
+  main small a {
+    text-decoration: underline;
+    color: blue;
+  }
+  
   @media screen and (max-width: 630px) {
     
   }
