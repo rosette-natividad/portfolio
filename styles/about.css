@@ -43,7 +43,7 @@ main .container {
   padding: 15px;
 }
 main .profile {
-  background: rgb(255, 221, 0);
+  background: rgb(255, 241, 153);
 }
 .desc {
   display: flex;
