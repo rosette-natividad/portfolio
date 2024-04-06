@@ -27,7 +27,7 @@
     justify-content: space-around;
   }
   
-  main .container, main .content {
+  main .container, main .content, main .box {
     display: flex;
     flex-direction: column;
     grid-gap: 15px;
@@ -57,6 +57,11 @@
   main small a {
     text-decoration: underline;
     color: blue;
+  }
+
+  main .box {
+    border: 2.5px solid #A8001A;
+    border-radius: 12pt;
   }
   
   @media screen and (max-width: 630px) {

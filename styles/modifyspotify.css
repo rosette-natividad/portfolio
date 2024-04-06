@@ -27,7 +27,7 @@ main {
   justify-content: space-around;
 }
 
-main .container, main .content {
+main .container, main .content, main .box {
   display: flex;
   flex-direction: column;
   grid-gap: 15px;
@@ -59,7 +59,7 @@ main small a {
   color: blue;
 }
 
-.solutions .container {
+main .box {
   border: 2.5px solid rgb(63, 163, 54);
   border-radius: 12pt;
 }
