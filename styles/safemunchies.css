@@ -1,10 +1,4 @@
 /* NAV STYLES */
-#about {
-  font-weight: 600;
-}
-#about:hover {
-  font-weight: 700;
-}
 .page-title {
   font-size: 30pt;
   font-weight: bolder;
@@ -69,7 +63,6 @@ ul {
   list-style: disc;
   padding-left: 25px;
 }
-
 ul li li {
   list-style: circle;
 }

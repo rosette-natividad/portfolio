@@ -1,10 +1,4 @@
 /* NAV STYLES */
-#about {
-  font-weight: 600;
-}
-#about:hover {
-  font-weight: 700;
-}
 .page-title {
   font-size: 30pt;
   font-weight: bolder;
@@ -63,6 +57,19 @@ main small {
 main small a {
   text-decoration: underline;
   color: blue;
+}
+
+.solutions .container {
+  border: 2.5px solid rgb(63, 163, 54);
+  border-radius: 12pt;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 25px;
+}
+ul li li {
+  list-style: circle;
 }
 
 @media screen and (max-width: 630px) {
