@@ -123,6 +123,7 @@ video {
   font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
   vertical-align: baseline;
+  line-height: 1.4;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -162,6 +163,12 @@ table {
 }
 a {
   text-decoration: none;
+}
+i {
+  font-style: italic;
+}
+b {
+  font-weight: bold;
 }
 
 /* HEADER STYLES */
