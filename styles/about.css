@@ -33,7 +33,7 @@ main {
   justify-content: space-around;
 }
 
-main .container {
+main .container, main .box {
   display: flex;
   flex-direction: column;
   grid-gap: 15px;
@@ -42,8 +42,11 @@ main .container {
   background: white;
   padding: 15px;
 }
+main .box {
+  border: 2.5px solid #1a2bc2;
+}
 main .profile {
-  background: rgb(255, 241, 153);
+  background: linear-gradient(0.35turn, #c3d8ff, #4e8afa, #a8dbf8);
 }
 .desc {
   display: flex;
@@ -69,15 +72,17 @@ main .profile {
     width: 60%;
   }
 }
-h2,
-h5,
-h6,
+main h2,
+main h5,
+main h6,
 .title p {
   font-weight: bold;
 }
-h5 {
-  text-transform: uppercase;
+main h5, main h2 {
   font-size: 14pt;
+}
+main h5 {
+  text-transform: uppercase;
 }
 .title p {
   font-style: bolder;
@@ -92,3 +97,4 @@ main a {
   color: blue;
   font-weight:500;
 }
+

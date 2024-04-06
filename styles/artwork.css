@@ -13,10 +13,17 @@
   padding-bottom: 0px;
 }
 
-.about {
+.about, .box {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
   border: 5px solid black;
   border-radius: 12pt;
+  background: linear-gradient(0.35turn, #fbffc3, #fab54e, #f8d8a8);
   padding: 15px;
+}
+.box {
+  border: 2.5px solid #fab32f;
   background: white;
 }
 .title p {
@@ -82,7 +89,7 @@ main {
   position: relative;
   overflow: hidden;
   border-radius: 12pt;
-  border: 5px solid black;
+  border: 2.5px solid rgb(0, 0, 0);
   aspect-ratio: 1;
 }
 .image-container img {

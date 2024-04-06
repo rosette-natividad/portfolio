@@ -226,13 +226,14 @@ nav a:first-child {
 header .logo a {
   display: flex;
   align-items: center;
-  font-weight: 600;
+  font-weight: 600 !important;
   color: black;
   white-space: nowrap;
 }
 nav a:hover,
-header .logo a:hover {
-  font-weight: 700;
+header .logo h6:hover {
+  font-weight: 700 !important;
+  color:rgb(253, 215, 157);
 }
 
 ul.hamburger-icon {
