@@ -25,14 +25,17 @@ body {
   margin: 0px auto;
   padding: 40px;
 }
+
 img,
 video {
   pointer-events: none;
   user-select: none;
 }
+
 hr {
   width: 100%;
 }
+
 html,
 body,
 div,
@@ -125,6 +128,7 @@ video {
   vertical-align: baseline;
   line-height: 1.4;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -139,17 +143,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -157,16 +165,20 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 a {
   text-decoration: none;
 }
+
 i {
   font-style: italic;
 }
+
 b {
   font-weight: bold;
 }
@@ -195,6 +207,7 @@ header .container {
   justify-content: space-between;
   align-items: center;
 }
+
 header img {
   width: 40px;
   margin-left: auto;
@@ -202,17 +215,20 @@ header img {
   display: block;
   filter: invert();
 }
+
 .logo a {
   display: flex;
   align-items: center;
   padding-left: 40px;
 }
+
 nav {
   display: flex;
   align-items: center;
   padding-right: 40px;
   white-space: nowrap;
 }
+
 header h6,
 nav a {
   margin-left: 10px;
@@ -220,9 +236,11 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 nav a:first-child {
   margin-left: 0px;
 }
+
 header .logo a {
   display: flex;
   align-items: center;
@@ -230,10 +248,11 @@ header .logo a {
   color: black;
   white-space: nowrap;
 }
+
 nav a:hover,
 header .logo h6:hover {
   font-weight: 700 !important;
-  color:rgb(253, 215, 157);
+  color: rgb(253, 215, 157);
 }
 
 ul.hamburger-icon {
@@ -250,16 +269,20 @@ ul.hamburger-icon li {
   border-radius: 12pt;
   margin-bottom: 7px;
 }
+
 ul.hamburger-icon li:last-child {
   margin-bottom: 0px;
 }
+
 hr {
   margin-left: 10px;
 }
+
 @media screen and (max-width: 770px) {
   ul.hamburger-icon {
     display: block;
   }
+
   hr {
     margin-left: 0px;
   }
@@ -304,6 +327,7 @@ footer .container {
   align-items: center;
   padding: 20px;
 }
+
 footer .socials {
   display: flex;
   flex-direction: row;

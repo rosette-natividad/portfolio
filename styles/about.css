@@ -2,9 +2,11 @@
 #about {
   font-weight: 600;
 }
+
 #about:hover {
   font-weight: 700;
 }
+
 .page-title {
   font-size: 30pt;
   font-weight: bolder;
@@ -12,6 +14,7 @@
   padding: 30px;
   padding-bottom: 0px;
 }
+
 /* MAIN STYLES */
 
 main .title {
@@ -32,10 +35,13 @@ main {
   grid-gap: 20px;
   justify-content: space-around;
 }
+
 main .container {
   border: 5px solid black;
 }
-main .container, main .box {
+
+main .container,
+main .box {
   display: flex;
   flex-direction: column;
   grid-gap: 15px;
@@ -43,76 +49,94 @@ main .container, main .box {
   background: white;
   padding: 15px;
 }
+
 main .box {
   border: 2.5px solid #1a2bc2;
   background: white;
 }
+
 main .resume .box {
   border: 2.5px solid #fab32f;
   background: white;
 }
+
 main .profile {
   background: linear-gradient(0.35turn, #c3d8ff, #4e8afa, #a8dbf8);
 }
+
 main .resume {
   background: linear-gradient(0.75turn, #fbffc3, #fab54e, #f8d8a8);
 }
+
 .desc {
   display: flex;
   justify-content: center;
   align-items: center;
   grid-gap: 25px;
 }
+
 .info {
   display: flex;
   flex-direction: column;
   grid-gap: 15px;
 }
+
 .profile img {
   border-radius: 100%;
   border: 5px solid black;
   width: 200px;
 }
+
 .profile .desc {
   text-shadow: white 0 0 15px;
 }
+
 .profile .desc p {
   font-weight: 500;
 }
+
 @media screen and (max-width: 630px) {
   .desc {
     flex-direction: column;
   }
+
   .profile img {
     width: 60%;
   }
 }
+
 main h2,
 main h5,
 main h6,
 .title p {
   font-weight: bold;
 }
-main h5, main h2 {
+
+main h5,
+main h2 {
   font-size: 14pt;
 }
+
 main h5 {
   text-transform: uppercase;
 }
+
 .title p {
   font-style: bolder;
   font-size: 18pt;
 }
+
 main hr {
   width: 100%;
   margin: 0;
 }
+
 main a {
   text-decoration: underline;
   color: blue;
-  font-weight:500;
+  font-weight: 500;
 }
+
 .resume img {
   width: 100%;
 }
-

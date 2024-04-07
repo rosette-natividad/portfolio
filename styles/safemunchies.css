@@ -6,6 +6,7 @@
   padding: 30px;
   padding-bottom: 0px;
 }
+
 /* MAIN STYLES */
 
 main .title-bar {
@@ -27,7 +28,9 @@ main {
   justify-content: space-around;
 }
 
-main .container, main .content, main .box {
+main .container,
+main .content,
+main .box {
   display: flex;
   flex-direction: column;
   grid-gap: 15px;
@@ -54,6 +57,7 @@ main small {
   float: inline-end;
   padding: 5px;
 }
+
 main small a {
   text-decoration: underline;
   color: blue;
@@ -68,36 +72,41 @@ ul {
   list-style: disc;
   padding-left: 25px;
 }
+
 ul li li {
   list-style: circle;
 }
 
-@media screen and (max-width: 630px) {
-  
-}
+@media screen and (max-width: 630px) {}
+
 main h2,
 main h5,
 main h6,
 .title-bar p {
   font-weight: bold;
 }
+
 main h5 {
   text-transform: uppercase;
   font-size: 14pt;
 }
+
 .title-bar p {
   font-style: bolder;
   font-size: 18pt;
 }
+
 main hr {
   width: 100%;
   margin: 0;
 }
+
 main a {
   text-decoration: underline;
   color: blue;
-  font-weight:500;
+  font-weight: 500;
 }
+
 main img {
   width: 100%;
 }

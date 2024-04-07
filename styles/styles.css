@@ -2,6 +2,7 @@
 #home {
   font-weight: 600;
 }
+
 #home:hover {
   font-weight: 700;
 }
@@ -11,18 +12,21 @@
   position: relative;
   padding: 0px;
 }
+
 .banner img {
   width: 100%;
   max-width: 100%;
   display: flex;
   border-bottom: 3rem solid;
 }
+
 .banner {
   text-align: center;
   position: relative;
   width: 100%;
   overflow-x: hidden;
 }
+
 .banner .container {
   width: 100%;
   display: flex;
@@ -39,17 +43,21 @@
   text-shadow: 1px 1px 10px black;
   text-align: start;
 }
+
 .banner h1 {
   font-weight: bold;
   font-size: 4vw;
 }
+
 .banner p {
   font-style: italic;
 }
+
 .banner h2,
 .banner p {
   font-size: 2vw;
 }
+
 .banner hr {
   margin-left: 0px;
   margin-top: 20px;
@@ -59,6 +67,7 @@
   height: 1px;
   border: 0;
 }
+
 .scroll {
   display: flex;
   flex-direction: column;
@@ -93,10 +102,12 @@
     margin-left: 0px;
   }
 }
+
 @media screen and (max-width: 600px) {
   .banner video {
     display: none;
   }
+
   .banner img {
     display: flex;
     width: 100%;
@@ -120,16 +131,19 @@ main {
   grid-gap: 20px;
   justify-content: space-around;
 }
+
 main h6 {
   font-weight: bold;
 }
+
 main .title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.about, .box {
+.about,
+.box {
   display: flex;
   flex-direction: column;
   grid-gap: 15px;
@@ -138,40 +152,49 @@ main .title {
   background: linear-gradient(0.35turn, #fbffc3, #fab54e, #f8d8a8);
   padding: 15px;
 }
+
 .box {
   border: 2.5px solid #fab32f;
   background: white;
 }
+
 .about span {
   font-weight: 500;
 }
+
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   margin-bottom: 15px;
 }
+
 .pf {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
+
 .pf h1 {
   text-transform: initial;
   font-size: 14pt;
   text-shadow: 0.5px 0.5px 5px white;
 }
+
 .pf p {
   text-shadow: 0.5px 0.5px 5px white;
 }
+
 .pf small {
   font-size: 8pt;
   font-style: italic;
 }
+
 .pf small a {
   text-decoration: underline;
   color: blue;
 }
+
 .pf img {
   width: 65%;
   border-radius: 25%;
@@ -179,9 +202,11 @@ main .title {
   margin-inline: 12px;
   box-shadow: 1px 1px 15px black;
 }
+
 .pf:hover {
   transform: scale(1.1);
 }
+
 .title p {
   font-weight: bolder;
   font-size: 18pt;
@@ -193,16 +218,20 @@ main h1 {
   font-size: 15pt;
   color: black;
 }
+
 main a {
   color: black;
 }
+
 main p {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 main .about p {
   padding: 0px;
 }
+
 main {
   display: flex;
   padding-bottom: 10px;

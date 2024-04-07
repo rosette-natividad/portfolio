@@ -1,199 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modify Spotify</title>
-    <link rel="icon" href="./images/icon-star.png" />
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/modifyspotify.css" />
-    <script defer src="./js/universal.js"></script>
-    <script defer src="./js/main.js"></script>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="logo">
-          <a href="https://rosette-natividad.github.io/portfolio/"><img src="./images/star-logo.png" alt="Logo"><h6>Rosette Natividad</h6></a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modify Spotify</title>
+  <link rel="icon" href="./images/icon-star.png" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/modifyspotify.css" />
+  <script defer src="./js/universal.js"></script>
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="https://rosette-natividad.github.io/portfolio/"><img src="./images/star-logo.png" alt="Logo">
+          <h6>Rosette Natividad</h6>
+        </a>
+      </div>
+      <nav>
+        <a id="home" href="https://rosette-natividad.github.io/portfolio/">Home</a>
+        <hr>
+        <a id="about" href="/portfolio/about.html">About</a>
+        <hr>
+        <a id="artwork" href="/portfolio/artwork.html">Artwork</a>
+        <hr>
+        <a id="contact" href="/portfolio/contact.html">Contact</a>
+      </nav>
+      <ul class="hamburger-icon">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </header>
+  <h1 class="page-title">Modify Spotify</h1>
+  <main>
+    <div class="container">
+      <div class="about content">
+        <div class="title-bar">
+          <h5>Problem Solving Through Design</h5>
+          <p>☆ ★ ☆ ★ ☆</p>
         </div>
-        <nav>
-          <a id="home" href="https://rosette-natividad.github.io/portfolio/">Home</a>
-          <hr>
-          <a id="about" href="/portfolio/about.html">About</a>
-          <hr>
-          <a id="artwork" href="/portfolio/artwork.html">Artwork</a>
-          <hr>
-          <a id="contact" href="/portfolio/contact.html">Contact</a>
-        </nav>
-        <ul class="hamburger-icon">
-          <li></li>
-          <li></li>
-          <li></li>
+        <i>Modify Spotify was a group of six members, including myself, for our Problem
+          Solving Through Design project in my Social Informatics course in Fall 2022.
+        </i>
+      </div>
+
+      <div class="banner">
+        <div class="logoCover container">
+          <img src="./modifyspotify/spotify-banner.jpg" alt="Spotify banner">
+        </div>
+        <small>Image from Spotify.</small>
+      </div>
+
+      <div class="goal content">
+        <div class="title-bar">
+          <h5>Goal</h5>
+        </div>
+        <p>
+          Spotify is a popular music streaming platform. Our goal was to improve
+          Spotify’s user experience through design, whether it be remodeling existing
+          features or designing new features. There’s always room for improvement.
+          <i>
+            You can learn more in depth about the Problem Solving Through Design project
+            <a href="https://drive.google.com/drive/folders/1Lt746l2PxaMzUCHCocgyBIiofVXsaf1f?usp=drive_link"
+              target="_blank">here</a>.
+          </i>
+        </p>
+      </div>
+      <hr>
+      <div class="methods content">
+        <div class="title-bar">
+          <h5>Methods</h5>
+        </div>
+        <i>Think-Aloud Interviews</i>
+        <p>
+          We interviewed a range of participants: first-time, moderate, and frequent
+          users of Spotify. With our participants we asked them to complete tasks and
+          speak aloud about their experiences (ex: if the task is easy or difficult,
+          etc.). The purpose of this is to use the interviews alongside with our research
+          to help us pinpoint stress cases. Below is a list of our think-aloud tasks:
+        </p>
+        <ul>
+          <li><b>Playlists:</b> creating a playlist, adding and removing songs, rearranging the playlist</li>
+          <li><b>Song Recommendations:</b> exploring personalized playlists through your home screen, use hide and not
+            interested buttons, shuffle function</li>
+          <li><b>Friend Activity:</b> find and add friends, see what friends are listening to, make collaborative
+            playlists</li>
+          <li><b>Search Bar:</b> search for specific songs/artists, create playlists from search results, use keywords
+            or genres to find songs</li>
+          <li><b>Sharing and Queuing Songs:</b> sharing songs with friends or social media, reorder songs in a queue
+          </li>
+          <li><b>Downloading Songs:</b> play songs offline, manage downloaded songs by redoing the function</li>
+          <li><b>Bluetooth:</b> connecting/disconnecting to other devices, start a group listening session</li>
+          <li><b>Spotify Premium:</b> subscribing and unsubscribing, change plans</li>
+        </ul>
+        <br>
+        <i>Stress Cases</i>
+        <ul>
+          <li><b>Shuffle Feature:</b> Does not truly shuffle a playlist, it is a curated shuffle based on the data it
+            collects about the user and lowers certain songs based on its priority; caused by another feature, Automix
+          </li>
+          <li><b>Liked Songs Organization:</b> Acts as a Saved Songs organizational tool, and users struggle to have
+            more organization within their profile because the heart-shaped icon is now replaced with a plus sign</li>
+          <li><b>Downloading Songs:</b> Users cannot download single songs, only playlists. However, a first time user
+            of Spotify struggled to download songs because the button to complete this function wasn’t clear</li>
+          <li><b>Spotify Premium:</b> Users have to go off the app and onto the web to subscribe/unsubscribe but they
+            can be charged without even knowing their subscription ended</li>
+          <li><b>Friend Activity:</b> Spotify struggles to socially engage users and they have no options to see their
+            friends’ top songs and artists because friend activity is only accessible on the desktop</li>
         </ul>
       </div>
-    </header>
-    <h1 class="page-title">Modify Spotify</h1>
-    <main>
-        <div class="container">
-            <div class="about content">
-                <div class="title-bar">
-                    <h5>Problem Solving Through Design</h5>
-                    <p>☆ ★ ☆ ★ ☆</p>
-                </div>
-                <i>Modify Spotify was a group of six members, including myself, for our Problem 
-                  Solving Through Design project in my Social Informatics course in Fall 2022.
-                </i>
-            </div>
-
-            <div class="banner">
-              <div class="logoCover container">
-                  <img src="./modifyspotify/spotify-banner.jpg" alt="Spotify banner">
-              </div>
-              <small>Image from Spotify.</small>
-          </div>
-
-            <div class="goal content">
-                <div class="title-bar">
-                <h5>Goal</h5>
-                </div>
-                <p>
-                  Spotify is a popular music streaming platform. Our goal was to improve 
-                  Spotify’s user experience through design, whether it be remodeling existing 
-                  features or designing new features. There’s always room for improvement. 
-                  <i>
-                    You can learn more in depth about the Problem Solving Through Design project 
-                    <a href="https://drive.google.com/drive/folders/1Lt746l2PxaMzUCHCocgyBIiofVXsaf1f?usp=drive_link" target="_blank">here</a>.
-                  </i>
-                </p>
-            </div>
-            <hr>
-            <div class="methods content">
-                <div class="title-bar">
-                <h5>Methods</h5>
-                </div>
-                <i>Think-Aloud Interviews</i>
-                <p>
-                  We interviewed a range of participants: first-time, moderate, and frequent 
-                  users of Spotify. With our participants we asked them to complete tasks and 
-                  speak aloud about their experiences (ex: if the task is easy or difficult, 
-                  etc.). The purpose of this is to use the interviews alongside with our research 
-                  to help us pinpoint stress cases. Below is a list of our think-aloud tasks:
-                </p>
-                <ul>
-                  <li><b>Playlists:</b> creating a playlist, adding and removing songs, rearranging the playlist</li>
-                  <li><b>Song Recommendations:</b> exploring personalized playlists through your home screen, use hide and not interested buttons, shuffle function</li>
-                  <li><b>Friend Activity:</b> find and add friends, see what friends are listening to, make collaborative playlists</li>
-                  <li><b>Search Bar:</b> search for specific songs/artists, create playlists from search results, use keywords or genres to find songs</li>
-                  <li><b>Sharing and Queuing Songs:</b> sharing songs with friends or social media, reorder songs in a queue</li>
-                  <li><b>Downloading Songs:</b> play songs offline, manage downloaded songs by redoing the function</li>
-                  <li><b>Bluetooth:</b> connecting/disconnecting to other devices, start a group listening session</li>
-                  <li><b>Spotify Premium:</b> subscribing and unsubscribing, change plans</li>
-                </ul>
-                <br>
-                <i>Stress Cases</i>
-                <ul>
-                  <li><b>Shuffle Feature:</b> Does not truly shuffle a playlist, it is a curated shuffle based on the data it collects about the user and lowers certain songs based on its priority; caused by another feature, Automix</li>
-                  <li><b>Liked Songs Organization:</b> Acts as a Saved Songs organizational tool, and users struggle to have more organization within their profile because the heart-shaped icon is now replaced with a plus sign</li>
-                  <li><b>Downloading Songs:</b> Users cannot download single songs, only playlists. However, a first time user of Spotify struggled to download songs because the button to complete this function wasn’t clear</li>
-                  <li><b>Spotify Premium:</b> Users have to go off the app and onto the web to subscribe/unsubscribe but they can be charged without even knowing their subscription ended</li>
-                  <li><b>Friend Activity:</b> Spotify struggles to socially engage users and they have no options to see their friends’ top songs and artists because friend activity is only accessible on the desktop</li>
-                </ul>
-              </div>
-            <hr>
-            <div class="journey content">
-                <div class="title-bar">
-                <h5>Journey Mapping</h5>
-                </div>
-                
-                <div class="box">
-                  <b>Goal & Scenario</b>
-                  <p>
-                    This journey map will be narrating the user experience during our 
-                  think-alouds which deals with Spotify use. It will give an overview of the 
-                  entire process and show how one of our think-aloud participants acted 
-                  while completing relevant tasks.
-                  </p>
-                  <img src="./modifyspotify/journey-map.jpg" alt="Journey map image">
-                </div>
-            </div>
-            <hr>
-            <div class="solutions content">
-                <div class="title-bar">
-                <h5>Solutions & Recommendations</h5>
-                </div>
-                <div class="box">
-                  <b>Curated Shuffle Feature</b>
-                  <ul>
-                    <li>New name and description for the existing feature Automix.</li>
-                    <li>Easier to comprehend how it functions and what it affects</li>
-                  </ul>
-                  <img src="./modifyspotify/curated-shuffle.png" alt="Curated shuffle image">
-                </div>
-                <div class="box">
-                  <b>Social Features</b>
-                  <ul>
-                    <li>New <i>Profile</i> button to home page UI: Enhances profile customizations</li>
-                    <li>New <i>Friend Activity</i> button to navigation bar: Enables friend activity display on mobile</li>
-                    <li>Enhances social interactions within the mobile app</li>
-                  </ul>
-                  <div class="banner">
-                    <img src="./modifyspotify/social-features.png" alt="Spotify mail image">
-                    <small>Image photoshopped by Michael Cimino.</small>
-                  </div>
-                </div>
-                <div class="box">
-                  <b>Downloading Music</b>
-                  <ul>
-                    <li>New <i>Download</i> button to Music Player UI: Allows user to download and un-download the song currently playing.</li>
-                    <li>New <i>Select Song, Download Song</i> buttons and moved <i>Remove Song</i> button in Edit Playlist UI:
-                      <ul>
-                        <li>Improves the interface and function</li>
-                        <li>Allows users to be able to select multiple songs and either remove them from the playlist or download them</li>
-                      </ul>
-                      
-                    </li>
-                    <li>Great way to save storage, especially for larger playlists</li>
-                  </ul>
-                  <img src="./modifyspotify/download-music.png" alt="Downloading music image">
-                </div>
-                <div class="box">
-                  <b>Spotify Mail</b>
-                  <ul>
-                    <li>Added a new <i>Mail</i> button to home page UI: Brings up a new interface to the user that displays important information regarding their account.
-                      <ul>
-                        <li>Premium Renewal/Cancellation</li>
-                        <li>New premium sales/offers/trials</li>
-                        <li>Beta testing opportunities</li>
-                        <li>& More</li>
-                      </ul>
-                    </li>
-                    <li><i>Mail</i> feature added to Spotify’s notification system.</li>
-                  </ul>
-                  <div class="banner">
-                    <img src="./modifyspotify/spotify-mail.png" alt="Spotify mail image">
-                    <small>Image photoshopped by Michael Cimino.</small>
-                  </div>
-                </div>
-            </div>
+      <hr>
+      <div class="journey content">
+        <div class="title-bar">
+          <h5>Journey Mapping</h5>
         </div>
 
-    </main>
-    <footer>
-      <div class="container">
-        <p>Website designed and coded by Rosette Natividad. All featured media were developed by her unless stated otherwise.</p>
-        <p>© 2023 Rosette Natividad. All Rights Reserved.</p>
-        <div class="socials">
-          <a href="https://www.linkedin.com/in/rosette-natividad/" target="_blank">
-            <img
-              src="https://seeklogo.com/images/L/linkedin-logo-A6EF048412-seeklogo.com.png"
-              alt="LinkedIn logo"
-            />
-          </a>
-          <a href="https://github.com/rosette-natividad" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub logo">
-          </a>
+        <div class="box">
+          <b>Goal & Scenario</b>
+          <p>
+            This journey map will be narrating the user experience during our
+            think-alouds which deals with Spotify use. It will give an overview of the
+            entire process and show how one of our think-aloud participants acted
+            while completing relevant tasks.
+          </p>
+          <img src="./modifyspotify/journey-map.jpg" alt="Journey map image">
         </div>
       </div>
-    </footer>
-  </body>
+      <hr>
+      <div class="solutions content">
+        <div class="title-bar">
+          <h5>Solutions & Recommendations</h5>
+        </div>
+        <div class="box">
+          <b>Curated Shuffle Feature</b>
+          <ul>
+            <li>New name and description for the existing feature Automix.</li>
+            <li>Easier to comprehend how it functions and what it affects</li>
+          </ul>
+          <img src="./modifyspotify/curated-shuffle.png" alt="Curated shuffle image">
+        </div>
+        <div class="box">
+          <b>Social Features</b>
+          <ul>
+            <li>New <i>Profile</i> button to home page UI: Enhances profile customizations</li>
+            <li>New <i>Friend Activity</i> button to navigation bar: Enables friend activity display on mobile</li>
+            <li>Enhances social interactions within the mobile app</li>
+          </ul>
+          <div class="banner">
+            <img src="./modifyspotify/social-features.png" alt="Spotify mail image">
+            <small>Image photoshopped by Michael Cimino.</small>
+          </div>
+        </div>
+        <div class="box">
+          <b>Downloading Music</b>
+          <ul>
+            <li>New <i>Download</i> button to Music Player UI: Allows user to download and un-download the song
+              currently playing.</li>
+            <li>New <i>Select Song, Download Song</i> buttons and moved <i>Remove Song</i> button in Edit Playlist UI:
+              <ul>
+                <li>Improves the interface and function</li>
+                <li>Allows users to be able to select multiple songs and either remove them from the playlist or
+                  download them</li>
+              </ul>
+
+            </li>
+            <li>Great way to save storage, especially for larger playlists</li>
+          </ul>
+          <img src="./modifyspotify/download-music.png" alt="Downloading music image">
+        </div>
+        <div class="box">
+          <b>Spotify Mail</b>
+          <ul>
+            <li>Added a new <i>Mail</i> button to home page UI: Brings up a new interface to the user that displays
+              important information regarding their account.
+              <ul>
+                <li>Premium Renewal/Cancellation</li>
+                <li>New premium sales/offers/trials</li>
+                <li>Beta testing opportunities</li>
+                <li>& More</li>
+              </ul>
+            </li>
+            <li><i>Mail</i> feature added to Spotify’s notification system.</li>
+          </ul>
+          <div class="banner">
+            <img src="./modifyspotify/spotify-mail.png" alt="Spotify mail image">
+            <small>Image photoshopped by Michael Cimino.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <div class="container">
+      <p>Website designed and coded by Rosette Natividad. All featured media were developed by her unless stated
+        otherwise.</p>
+      <p>© 2023 Rosette Natividad. All Rights Reserved.</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/rosette-natividad/" target="_blank">
+          <img src="https://seeklogo.com/images/L/linkedin-logo-A6EF048412-seeklogo.com.png" alt="LinkedIn logo" />
+        </a>
+        <a href="https://github.com/rosette-natividad" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub logo">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
