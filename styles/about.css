@@ -32,21 +32,30 @@ main {
   grid-gap: 20px;
   justify-content: space-around;
 }
-
+main .container {
+  border: 5px solid black;
+}
 main .container, main .box {
   display: flex;
   flex-direction: column;
   grid-gap: 15px;
-  border: 5px solid black;
   border-radius: 12pt;
   background: white;
   padding: 15px;
 }
 main .box {
   border: 2.5px solid #1a2bc2;
+  background: white;
+}
+main .resume .box {
+  border: 2.5px solid #fab32f;
+  background: white;
 }
 main .profile {
   background: linear-gradient(0.35turn, #c3d8ff, #4e8afa, #a8dbf8);
+}
+main .resume {
+  background: linear-gradient(0.75turn, #fbffc3, #fab54e, #f8d8a8);
 }
 .desc {
   display: flex;
