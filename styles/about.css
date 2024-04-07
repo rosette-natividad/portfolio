@@ -73,6 +73,12 @@ main .resume {
   border: 5px solid black;
   width: 200px;
 }
+.profile .desc {
+  text-shadow: white 0 0 15px;
+}
+.profile .desc p {
+  font-weight: 500;
+}
 @media screen and (max-width: 630px) {
   .desc {
     flex-direction: column;
@@ -105,5 +111,8 @@ main a {
   text-decoration: underline;
   color: blue;
   font-weight:500;
+}
+.resume img {
+  width: 100%;
 }
 
