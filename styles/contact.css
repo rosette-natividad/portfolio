@@ -100,8 +100,8 @@ textarea {
   font-size: 12pt;
 }
 input[type="submit"] {
-  background-color: #c73030;
-  color: rgb(255, 255, 255);
+  background-color: #fab32f;
+  color: black;
   padding: 12px 30px;
   border: 2px solid #000000;
   border-radius: 4px;
@@ -109,5 +109,5 @@ input[type="submit"] {
   font-weight: 800;
 }
 input[type="submit"]:hover {
-  background-color: #f03b3b;
+  background-color: #f8d8a8;
 }
