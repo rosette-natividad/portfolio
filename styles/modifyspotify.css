@@ -98,3 +98,6 @@ main a {
   color: blue;
   font-weight:500;
 }
+main img {
+  width: 100%;
+}
