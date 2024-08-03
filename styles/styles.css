@@ -149,7 +149,7 @@ main .title {
   grid-gap: 15px;
   border: 5px solid black;
   border-radius: 12pt;
-  background: linear-gradient(0.35turn, #c3ffc6, #fab54e, #f8d8a8);
+  background: linear-gradient(0.35turn, #fbffc3, #fab54e, #f8d8a8);
   padding: 15px;
 }
 
